@@ -1,0 +1,37 @@
+
+Proposals (Many):
+	Subject (arg [0]) - No number in it
+
+	IsScreeningPass:
+        Duration (in Minutes) (arg [0])
+        title (String) (arg [1])
+
+***
+PROPOSAL MANAGEMENT
+Actions:
+       1. proposal store it in right data structure  (Collections, hash table / Map / Set):  should not take
+        duplicates, no ordering required
+       2. sorting algorithm - required
+
+Screening Process (Manual):
+
+Time Constraint:
+
+***
+TRACK MANAGEMENT
+Conference:
+  Tracks (Multiple)
+	  Sessions
+		Morning Session (9AM to 12 PM) = 180 min
+		Evening Session (1 PM and 4PM) = 180 mins
+		Networking Session (4 PM to 5 PM)
+
+Problem Statement:
+It is multiple combinations:
+You need to find 2 sets of session with 180 min total, each session
+if you have multiple tracks, don't consider the topics the you considered in the other track
+Any Known Algorithm?? -  First Fit, Bin Packaging Problem (Bin Size = 180), for n bin output, apply nP2 permutation
+
+Possible Data Modelling for Output
+
+
