@@ -1,6 +1,6 @@
 # ConferenceTrackManagementProject
 ConferenceTrackManagementProject
-##Problem Statement:
+## Problem Statement:
 <pre>
 
 You are planning a big programming conference and have received many proposals which have passed the initial screen process but you're having trouble fitting them into the time constraints of the day -- there are so many possibilities! So you write a program to do it for you. <br/>
@@ -52,7 +52,7 @@ Track 1:<br/>
 05:00PM Networking Event<br/>
 </pre>
 
-Solution:<br/>
+## Solution:<br/>
 <pre>
 Based on my rough work Captured below, I have used First Fit Decreasing Algorithm for this requirment. How it works ?<br/>
 
@@ -80,7 +80,7 @@ Step 2: Bcketing (reordering)<br/>
 total bucket required are 4.<br/>
 </pre>
 
-# Requirement Understanding (My Rough Work)<br/>
+## Requirement Understanding (My Rough Work)<br/>
 
 <pre>
 Proposals (Many):<br/>
