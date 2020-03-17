@@ -1,6 +1,7 @@
 # ConferenceTrackManagementProject
 ConferenceTrackManagementProject
 ##Problem Statement:
+<pre>
 
 You are planning a big programming conference and have received many proposals which have passed the initial screen process but you're having trouble fitting them into the time constraints of the day -- there are so many possibilities! So you write a program to do it for you. <br/>
 	•	The conference has multiple tracks each of which has a morning and afternoon session. <br/>
@@ -69,7 +70,7 @@ Step 1: sorting in decreasing order<br/>
 52, 45, 30, 18, 16,14, 12, 10, 9, 9, 8, 8, 7<br/>
 
 Step 2: Bcketing (reordering)<br/>
-<pre>
+
           Bucket                      Remaining <br/>
 1       52, 8                            60 (initial), 8 (after adding 52), 0 (after adding 8, other numbers not fit)<br/>
 2.      45, 14                           60, 15, 1<br/>
@@ -79,9 +80,7 @@ Step 2: Bcketing (reordering)<br/>
 total bucket required are 4.<br/>
 
 
-Requirement Understanding (My Rough Work)<br/>
-
-https://github.com/vinodborole/BrainTeasers/blob/master/src/com/vinodborole/brainteasers/ctm/algo/BinPackingFirstFitDecreasing.java <br/>
+# Requirement Understanding (My Rough Work)<br/>
 
 Proposals (Many):<br/>
 	Subject (arg [0]) - No number in it<br/>
@@ -89,7 +88,7 @@ Proposals (Many):<br/>
         Duration (in Minutes) (arg [1])<br/>
         
 Actions:<br/>
-      1. proposal store it in right data structure  (Collections, hash table / Map / Set):  should not take duplicates, no ordering required<br/>
+      1. proposal store it in right data structure  (Collections, hash table / Map / Set):  should not take duplicates, no  ordering required<br/>
        2. sorting algorithm - required<br/>
 
 Screening Process (Manual):<br/>
@@ -109,7 +108,7 @@ You need to find 2 sets of session with 180 min total, each session<br/>
 if you have multiple tracks, don't consider the topics the you considered in the other track<br/>
 Any Known Algorithm?? -  First Fit, Bin Packaging Problem (Bin Size = 180), for n bin output, apply nP2 permutation <br/>
 
-Possible Data Modelling for Output  <br/>
+
 
 
 	 
