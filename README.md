@@ -50,10 +50,10 @@ Track 1:<br/>
 04:00PM Ruby vs. Clojure for Back-End Development 30min<br/>
 04:30PM User Interface CSS in Rails Apps 30min<br/>
 05:00PM Networking Event<br/>
-
+</pre>
 
 Solution:<br/>
-
+<pre>
 Based on my rough work Captured below, I have used First Fit Decreasing Algorithm for this requirment. How it works ?<br/>
 
 Step 1:<br/>
