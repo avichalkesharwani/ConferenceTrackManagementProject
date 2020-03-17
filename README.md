@@ -78,10 +78,11 @@ Step 2: Bcketing (reordering)<br/>
 4.      16, 10, 9, 9, 8, 7               60, 44, 34, 25, 16, 8, 1<br/> 
 
 total bucket required are 4.<br/>
-
+</pre>
 
 # Requirement Understanding (My Rough Work)<br/>
 
+<pre>
 Proposals (Many):<br/>
 	Subject (arg [0]) - No number in it<br/>
 	IsScreeningPass:<br/>
@@ -110,5 +111,5 @@ Any Known Algorithm?? -  First Fit, Bin Packaging Problem (Bin Size = 180), for 
 
 
 
-
+</pre>
 	 
